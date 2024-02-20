@@ -4,7 +4,7 @@ from st_aggrid import AgGrid
 
 st.title("📝 Gantt Chart")
 
-df = pd.read_excel("Proposal/GanttChart.xlsx", usecols = 'A:F')
+df = pd.read_excel("Proposal/GanttChart.xlsx", usecols = 'B:F')
 AgGrid(df)
 
 with open("Proposal/GanttChart.xlsx", "rb") as f:
