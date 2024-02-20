@@ -12,10 +12,8 @@ st.set_page_config(
 show_pages(
     [
         Page("home.py", "Home", "🏠"),
-        
-        Section("Project Proposal", icon="📄"),
-        Page("proposal.py", "Project Proposal", "📄", in_section=True),
-        Page("ganttChart.py", "Gantt Chart", "📝", in_section=True)
+        Page("proposal.py", "Project Proposal", "📄"),
+        Page("ganttChart.py", "Gantt Chart", "📝")
     ]
 )
 
