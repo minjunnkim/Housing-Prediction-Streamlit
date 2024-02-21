@@ -6,7 +6,11 @@ st.title("📄 Project Proposal")
 #Project Proposal
 
 #Setup tabs
-tab1, tab2, tab3, tab4, tab5 = st.tabs(["Introduction/Background", "Problem Definition", "Methods", "Potential Results and Discussion", "References"])
+tab0, tab1, tab2, tab3, tab4, tab5 = st.tabs(["Presentation", "Introduction/Background", "Problem Definition", "Methods", "Potential Results and Discussion", "References"])
+
+#Video Presentation
+tab0.header("Presentation")
+tab0.video("https://www.youtube.com/watch?v=KRKYY6XAhMI")
 
 #Introduction/Background
 tab1.header("Introduction/Background")
@@ -68,3 +72,4 @@ for i in list:
     s += "[" + str(index) + "] " + i + "\n\n"
     index+=1
 tab5.markdown(s)
+

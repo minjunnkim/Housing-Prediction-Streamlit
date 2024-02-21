@@ -18,5 +18,3 @@ show_pages(
 )
 
 st.title("🏠 Home")
-
-st.write("placeholder text")
